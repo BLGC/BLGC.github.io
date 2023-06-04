@@ -1,0 +1,58 @@
+#main_right {
+    position: relative;
+    width: 400px;
+    margin-left: 20px;
+    display: inline-block;
+    height: 100%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* 添加此样式，确保padding不会撑大元素 */
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* 添加此样式，确保padding和border不会撑大输入框 */
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: #1a9be6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #1582b5;
+}
+
+footer {
+    margin-top: 20px;
+}

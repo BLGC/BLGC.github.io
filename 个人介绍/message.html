@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言板</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/message.css">
+
+</head>
+
+<body>
+    <div id="bigbox">
+        <nav>
+            <a href="index.html">个人介绍</a>
+            <a href="hometown.html">家乡介绍</a>
+            <a href="photo.html">照片</a>
+            <a class="introduction" href="">留言</a>
+        </nav>
+        <div id="main">
+            <div id="main_left">
+                <h2>关于我</h2>
+                <img src="picture/me.jpg" height="300px" alt="">
+                <p>
+                    <span>姓名</span>: 胡浪涛<br>
+                    <span>性别</span>: 男<br>
+                    <span>年龄</span>: 16<br>
+                    <span>专业</span>: 信管
+                </p>
+            </div>
+            <div id="main_right">
+                <h2>留言板</h2>
+                <form action="submit.php" method="POST">
+                    <label for="name">姓名:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">邮箱:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="message">留言内容:</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                    <input type="submit" value="提交">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>
+            版权所有 © 胡浪涛
+        </p>
+    </footer>
+
+</body>
+
+</html>
