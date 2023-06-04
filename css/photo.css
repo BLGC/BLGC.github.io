@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(/picture/background.jpg);
+}
+
+#bigbox {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 1000px;
+    height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    line-height: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #020C16;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1a9be6;
+}
+
+.dangqian {
+    color: #1a9be6;
+}
+
+#main {
+    height: 600px;
+    width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+#main img {
+    width: 300px;
+    height: 200px;
+}
+
+footer {
+    line-height: 60px;
+    font-size: 14px;
+    text-align: center;
+}
